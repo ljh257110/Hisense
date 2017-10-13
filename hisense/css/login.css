@@ -1,0 +1,176 @@
+a,b,button, body, code, dd, del, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, input, li, object, ol, p, pre, span, strong, table, tbody, td, tfoot, th, thead, tr, u, ul{margin:0;padding:0;font-family: "微软雅黑";}
+		a{
+			text-decoration: none;
+			color: #333;
+			transition: all 0.2s linear;
+		}
+		li{
+			list-style: none;
+		}
+		img{
+			overflow: hidden;
+		}
+		.header{
+			height: 60px;
+			padding: 20px 0;
+			position: relative;
+
+		}
+		.header .header_top{
+			width: 1200px;
+			margin:0 auto;
+			overflow: hidden;
+		}
+		.header .header_top .logo{
+			width: 250px;
+			height: 70px;
+			float: left;
+			
+		}
+		.header .header_top .text{
+			float: left;
+			font-weight: 400;
+			font-family: "微软雅黑";
+			height: 50px;
+			line-height: 65px;
+			font-size: 20px;
+			text-align: center;
+		}
+		.logo_box{
+			background: #950215 url(../images/0af66eda43da485a81cb3588a988a33b.jpg) no-repeat left center;
+			height: 462px;
+		}
+		.logo_box .logo_form{
+			width: 350px;
+			height: 360px;
+			margin:60px 10% 0 0;
+			margin-top: 10px;
+			float: right;
+			background: #fff;
+			border:1px solid #cbcbcb;
+			padding: 35px 30px 45px;
+		}
+		.logo_box .logo_form .wrap{
+			margin:0 auto;
+			position: relative;
+			height: 100%;
+			min-height: 360px;
+		}
+		.logo_box .logo_form .wrap .logo_cont{
+			position: static;
+			width: 100%;
+			height: 100%;
+		}
+		.logo_box .logo_form .wrap .logo_cont .logo_cont1{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -170px;
+			margin-top:-160px;
+			width: 320px;
+		}
+		.logo_box .logo_form .wrap .logo_cont .logo_cont1 .panel{
+			margin-bottom: 20px;
+			border-radius: 4px;
+			border:0;
+		}
+		.logo_box .logo_form .wrap .logo_cont .logo_cont1 .panel form fieldset{
+			border:0;
+		}
+		.logo_box .logo_form .wrap .logo_cont .logo_cont1 .panel form .form-register{
+			margin-bottom: 60px;
+		}
+		.panel form .form-register .title{
+			font-size: 24px;
+			color: #3c3c3c;
+			float: left;
+		}
+		.panel form .form-register .register{
+			float: right;
+			font-size: 16px;
+			color: #009ea1;
+		}
+		.panel form .form-register .register img{
+			vertical-align: middle;
+		}
+		.panel form .form-control{
+			position: relative;
+			margin-bottom: 20px;
+		}
+		.panel form .password{
+			margin-bottom:0;
+		}
+		.panel form #username{
+			display: none;
+		}
+		.panel form #pass{
+			display: none;
+		}
+		.panel form .error{
+			font-size: 12px;
+			color: rgb(255, 102, 0);
+			height: 25px;
+			line-height: 25px;
+			display: none;
+		}
+		.panel form .img{
+			position: absolute;
+			left: 5px;
+			top: 7px;
+		}
+		.panel form .form-control input{
+			color: rgb(204, 204, 204);
+			text-indent: 40px;
+			border:1px solid #ccc;
+			display: block;
+			font-size: 16px;
+			width: 100%;
+			height: 34px;
+			line-height: 34px;
+			background: #fff;
+			vertical-align: middle;
+			display: block;
+		}
+		.panel form .form-control .active{
+			display: none;
+			border-color:#66afe9;
+			outline: 0;
+			box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+		}
+		.panel form .reset{
+			margin-bottom: 35px;
+		}
+		.panel form .reset .reset_btn{
+			float: left;
+			font-size: 16px;
+			color: #3c3c3c;
+		}
+		.panel form .reset .forget{
+			float: right;
+			font-size: 16px;
+			color: #009ea1;
+		}
+		.panel form .btn{
+			color: #fff;
+			background: #02b4b6;
+			font-style: 18px;
+			border:0;
+			display: block;
+			width: 100%;
+			height: 34px;
+			line-height: 34px;
+		}
+		.copyright{
+			text-align: center;
+			background: #414141;
+			padding: 20px 0;
+			color: #999;
+		}
+		.copyright .content{
+			width: 1200px;
+			margin:0 auto;
+		}
+		.copyright .content p{
+			font-size: 12px;
+			line-height: 25px;
+		}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/footer.css" type = "text/css"/>
+	<link rel="stylesheet" href="css/fix_nav.css" type = "text/css"/>
+	<link rel="stylesheet" href="css/shoppingCar.css" type = "text/css"/>
+	<script src = "js/jquery-1.11.1.js"></script>
+	<script src = "js/jquery.cookie.js"></script>
+	<script src = "js/shoppingCar.js"></script>
+</head>
+<body>
+<!-- 头部 -->
+	<div id = "header">
+		<div id = "header_top">
+				<ul id = "header_left">
+					<li><a href="http://www.hisense.cn" target = "_blank" class = "officialWeb">海信集团官网</a></li>
+					<li><a href="" class = "city">[青岛市]选择城市</a></li>
+					<li><a href="http://www.hisense.com/notice/59cf32950d720eb737e3ed59.html" target = "_blank" class = "sponsor">海信赞助世界杯，2018俄罗斯见</a></li>
+				</ul>
+				<ul id = "header_right">
+					<li><a href="login.html" target = "_blank" class = "Login">登录</a></li>
+					<li><a href="register.html"  target = "_blank" class = "register">注册</a></li>
+					<li><a href="http://www.hisense.com/myorder/order_list.html"  target = "_blank" class = "order">我的订单</a></li>
+					<li><a href="shoppingCar.html"  target = "_blank" class = "shoppingCart">购物车</a></li>
+					<li><a href="http://www.hisense.com/help/index.html"  target = "_blank" class = "helpCenter">帮助中心</a></li>
+					<li class = "web_nav"><a href="" class = "siteNav">网站导航</a>
+						<ul class = "content">
+							<li>
+								<h3>服务指南</h3>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >帮助中心</a>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >在线客服</a>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >会员中心</a>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >电子发票</a>
+							</li>
+							<li>
+								<h3>集团简介</h3>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >企业简介</a>
+								<a href="http://www.hisense.com/help/index.html"  target = "_blank" >投资者关系</a>
+								<a href="http://www.hisense.com/help/index.html"  target = "_blank" >企业荣誉</a>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >企业招聘</a>
+								<a href="http://www.hisense.com/help/index.html"  target = "_blank" >人才理念</a>
+							</li>
+							<li class = "item3">
+								<h3>商城特色</h3>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >今日值得买</a>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >周末慢生活</a>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >赠品专区</a>
+								<a href="http://www.hisense.com/help/index.html" target = "_blank" >HI码专区</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+	</div>
+<!-- logo -->
+	<div class = "logo_wrap">
+		<div class = "logo_content">
+			<a href="#">
+				<img class = "logo" src="images/c2159f29b69440d88aaa3396871d2f88.png" />
+			</a>
+			<img class = "progress" src="images/progress_1.png" />
+		</div>
+	</div>
+<!-- 购物车 -->
+	<form>
+		
+		<div class = "my_shopcar">
+			<h3>我的购物车</h3>
+			<div class = "all_choose">
+				<span class="all activeAll">
+					<input type="checkbox" class = "selectAll">
+					全选
+				</span>
+				<span class = "goods">商品</span>
+				<span class = "cost">单价（元）</span>
+				<span class = "goods-num">数量</span>
+				<span class = "subtotal">小计（元）</span>
+				<span class = "operation">操作</span>
+			</div>
+			<ul class = "buy_list">
+				
+			</ul>
+			<div class="settlement">
+		        <span class="all styleSelectAll activeAll">全选</span>
+		        <a href="#" class="del_choose">删除选中的商品</a>
+		        <p>已选择<span id="count">0</span>件商品</p>
+		        <h4>
+		          <span class="price_total">总价：¥</span>
+		          <b id="total">0.00</b>
+		        </h4>
+		        <h5>
+		          <span class="discount_money">已节省：</span>
+		          <b>-¥<em id="jiesheng">0.00</em></b>
+		        </h5>
+		        <a href="http://www.hisense.com/checkout.html" class = "go_pay">去结算</a>
+		    </div>
+		</div>
+	</form>
+<!-- 猜你喜欢 -->
+	<div class = "guess">
+		<a href="#" class = "you_like">猜你喜欢</a>
+		<div class="picScroll_left">
+			<div class = "hd">
+				<a href="#" class = "next"></a>
+				<ul>
+					<li class = "on"></li>
+					<li></li>
+				</ul>
+				<a href="#" class = "prev"></a>
+			</div>
+			<div class = "bd">
+				<div class = "tempWrap"><ul></ul></div>
+			</div>
+		</div>
+	</div>
+<!-- 尾部 -->
+	<div class = "footer">
+		<div class = "follow">
+			<div class = "content">
+				<div class = "left">
+					<div class = "service-tel">
+						<i>热线电话</i>
+					</div>
+					<div class = "tel">
+						<i>4006-111-111</i>
+						<span>售 后</span>
+					</div>
+					<div class = "tel">
+						<i>4008-011-111</i>
+						<span>安 装</span>
+					</div>
+				</div>
+			</div>
+			<div class = "right">
+				<div class = "weChat">
+					<img src="images/qrcode_weixin.jpg" />
+					<p>扫码关注</p>
+					<p>海信商城官方微信</p>
+				</div>
+				<div class = "mobile">
+					<img src="images/qrcode_wapsc.png" />
+					<p>扫码关注</p>
+					<p>海信商城移动版</p>
+				</div>
+			</div>
+		</div>
+		<div class = "links">
+			
+		</div>
+		<div class = "copyright">
+			<ul class = "promise">
+				<li><img src="images/qglb_icon.png" alt=""><a href="http://www.hisense.com/help/58b6aa73937cbd12e2ad8fc2.html " target = "_blank" >全国联保</a></li>
+				<li><img src="images/shdh_icon.png" alt=""><a href="http://www.hisense.com/help/58b6aa73937cbd12e2ad8fc2.html " target = "_blank" >送货到户</a></li>
+				<li><img src="images/qglb_icon.png" alt=""><a href="http://www.hisense.com/help/58b6aa73937cbd12e2ad8fc2.html " target = "_blank" >全场包邮</a></li>
+				<li><img src="images/qtth_icon.png" alt=""><a href="http://www.hisense.com/help/58b6aa73937cbd12e2ad8fc2.html " target = "_blank" >7天退换货</a></li>
+
+			</ul>
+			<div>
+				<p>Copyright 2015 Hisense Group All Rights Reserved. 海信集团有限公司版权所有 鲁ICP备05027830</p>
+			</div>
+			<ul class = "bottom_logo">
+				<li><a href="https://ss.knet.cn/verifyseal.dll?sn=a11123111010008255307708&comefrom=trust&trustKey=dn&trustValue=" target = "_blank" ><img src="images/3c4cee9a03fc4205a6c8edb99eb39c3f.jpg" /></a></li>
+				<li><a href="https://ss.knet.cn/verifyseal.dll?sn=a11123111010008255307708&comefrom=trust&trustKey=dn&trustValue=" target = "_blank" ><img src="images/d2ad19fdd22844b1bc1d97f30f73cadb.jpg" /></a></li>
+				<li><a href="https://ss.knet.cn/verifyseal.dll?sn=a11123111010008255307708&comefrom=trust&trustKey=dn&trustValue=" target = "_blank" ><img src="images/f9a4d372bfcd422ca370a6bc5f306af5.png" /></a></li>
+				<li><a href="https://ss.knet.cn/verifyseal.dll?sn=a11123111010008255307708&comefrom=trust&trustKey=dn&trustValue=" target = "_blank" ><img src="images/acbb55310dd640d99f9fb7f3183aff15.jpg" /></a></li>
+
+			</ul>
+		</div>
+	</div>
+<!-- 固定导航 -->
+	<div class = "fixed_nav">
+		<ul>
+			<li class = "cart">
+				<a href="http://localhost/hisense2/html/shoppingCar.html" target = "_blank" ></a>
+			</li>
+			<li class = "cus_ser">
+				<a href="" target = "_blank" ></a>
+			</li>
+			<li class = "contact">
+				<a href="http://www.hisense.com/profile/pview.html" target = "_blank" ></a>
+			</li>
+			<li class = "back_top">
+				<a href="" target = "_blank" ></a>
+			</li>
+			
+		</ul>
+
+	</div>
+<!-- 删除框 -->
+	<div class = "Del"></div>
+	<div class = "del_box">
+		<div class = "ui_dialog">
+			<table>
+				<tr>
+					<td class="del_header">
+						<button class="close">×</button>
+						<div class="close_title">提示</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="del_body">
+						<div class="del_content" style="width: 350px;">
+							<div class="pd20">您是否确认删除此商品？<div></div></div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="del_footer">
+						<div class="del_statusbar" style="display:none;">
+						</div>
+						<div class="del_button">
+							<button type="button" class="del_true">确定</button>
+							<button type="button" class="del_false">取消</button>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

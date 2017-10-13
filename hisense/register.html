@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/icon/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<script src = "js/jquery-1.11.1.js"></script>
+	<script src = "js/register.js"></script>
+	<script src = "js/jquery.cookie.js"></script>
+</head>
+<body>
+<!-- logo -->
+	<div class = "header">
+		<div class = "header_img">
+			<div class = "logo">
+				<a href="#">
+					<img src="images/c2159f29b69440d88aaa3396871d2f88.png" />
+				</a>
+			</div>
+		</div>
+	</div>
+<!-- 注册主体 -->
+	<div class = "reg">
+		<div class = "reg_left">
+			<img src="images/3e22b18d562f4a4c9685d6a70ea698d7.jpg" />
+		</div>
+		<div class = "reg_right">
+			<div class = "wel">
+				<p class = "wel_left">欢迎注册</p>
+				<p class = "wel_right">已注册可<a href="login.html" target="_blank" >直接登录</a></p>
+			</div>
+			<div class = "reg_cont">
+				<div class = "item select_name">
+					<select class = "select_input" name="registType">
+						<option value="user">用户名</option>
+						<option value="phone">手机</option>
+						<option value="email">邮箱</option>
+					</select>
+					
+				</div>
+				<div class = "item username">
+					<div class = "tooltips tooltips-prompt">
+						<div class = "tooltips-content">请输入用户名</div>
+						<div class="tooltips-arrow">
+							<i class="arrow arrow-out">◆</i>
+							<i class="arrow">◆</i>
+						</div>			
+					</div>
+					<div class="tooltips tooltips-warn">
+						<div class="tooltips-content">
+							<i class="iconfont icon-jinggao"></i>
+								用户名由4-30位数字字母组成
+						</div>
+						<div class="tooltips-arrow">
+							<i class="arrow arrow-out">◆</i>
+							<i class="arrow">◆</i>
+						</div>
+					</div>
+					<i class = "input_success iconfont icon-duihao"></i>
+					<input class = "text_input" type = "text" placeholder = "请输入用户名" />
+				</div>
+				<div class = "item password">
+					<div class = "tooltips tooltips-prompt">
+						<div class = "tooltips-content">密码由8-20位字母、数字和符号两种及以上组成</div>
+						<div class="tooltips-arrow">
+							<i class="arrow arrow-out">◆</i>
+							<i class="arrow">◆</i>
+						</div>			
+					</div>
+					<div class="tooltips tooltips-warn">
+						<div class="tooltips-content">
+							<i class="iconfont icon-jinggao"></i>
+								请输入8-20位字母、数字和符号两种及以上组合
+						</div>
+						<div class="tooltips-arrow">
+							<i class="arrow arrow-out">◆</i>
+							<i class="arrow">◆</i>
+						</div>
+					</div>
+						<i class = "input_success iconfont icon-duihao"></i>
+						<input class = "text_input" type="password" placeholder = "密码由8-20位字母、数字和符号两种及以上组成" />
+				</div>
+				<div class = "item confirm">
+					<div class = "tooltips tooltips-prompt">
+						<div class = "tooltips-content">请输入确认密码</div>
+						<div class="tooltips-arrow">
+							<i class="arrow arrow-out">◆</i>
+							<i class="arrow">◆</i>
+						</div>			
+					</div>
+					<div class="tooltips tooltips-warn">
+						<div class="tooltips-content">
+							<i class="iconfont icon-jinggao"></i>
+								请输入确认密码
+						</div>
+						<div class="tooltips-arrow">
+							<i class="arrow arrow-out">◆</i>
+							<i class="arrow">◆</i>
+						</div>
+					</div>
+						<i class = "input_success iconfont icon-duihao"></i>
+						<input class = "text_input" type="password" placeholder = "请再次输入上面密码" />
+				</div>
+				<div class = "btn">
+					<a href="#" class = "reg_btn">立即注册</a>
+				</div>
+				<div class = "agreeInfo">
+					<input type="checkbox" id = "agree"  checked = "checked"  /> 
+					 我已阅读并接受
+					<a id="reg_agree" href="#">《海信用户注册协议》</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class = "height30"></div>
+<!-- 底部 -->
+	<div class = "footer">
+		<div class = "copyright">
+			<p>Copyright 2015 Hisense Group All Rights Reserved.</p>
+			<p>海信集团有限公司版权所有 京ICP备0508775</p>
+		</div>
+		
+	</div>
+</body>
+</html>

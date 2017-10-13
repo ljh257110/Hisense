@@ -1,0 +1,31 @@
+.fixed_nav ul{
+			position: fixed;
+			right: 0;
+			bottom: 0;
+			width: 66px;
+			z-index: 100;
+		}
+		.fixed_nav ul li{
+			width: 66px;
+			height: 66px;
+			box-sizing: border-box;
+			border-bottom: 1px solid #fff;
+			cursor: pointer;
+
+		}
+		.fixed_nav ul .cart{
+			background: rgba(100, 100, 100, 0.7) url("../images/cart_icon.png") no-repeat  0 center;
+		}
+		.fixed_nav ul .cus_ser{
+			background: rgba(100, 100, 100, 0.7) url("../images/service_icon.png") no-repeat  0 center;
+		}
+		.fixed_nav ul .contact{
+			background: rgba(100, 100, 100, 0.7) url("../images/contact_icon.png") no-repeat  0 center;
+		}
+		.fixed_nav ul .back_top,.fixed_nav ul .back_top:hover{
+			background: #19b2af url("../images/fixed_up_icon.png") no-repeat  0 center;
+		}
+		.fixed_nav ul li:hover{
+			background-color: #00aaa6;
+			background-position:-65px center;
+		}

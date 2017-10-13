@@ -1,0 +1,199 @@
+a,b,button, body, code, dd, del, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, input, li, object, ol, p, pre, span, strong, table, tbody, td, tfoot, th, thead, tr, u, ul{margin:0;padding:0;}
+		a{
+			text-decoration: none;
+			color: #333;
+			transition: all 0.2s linear;
+		}
+		li{
+			list-style: none;
+		}
+		img{
+			overflow: hidden;
+		}
+		i{
+			font-style: normal;
+		}
+		.iconfont{
+			font-family: iconfont;
+			font-size: 25px;
+			font-style: normal;
+		}
+		.header{
+			position: relative;
+			padding: 20px 0;
+			height: 60px;
+		}
+		.header .header_img{
+			width: 1200px;
+			margin:0 auto;
+		}
+		.header .header_img .logo{
+			width: 210px;
+			float: left;
+			margin-top: 15px;
+		}
+		.reg{
+			width: 1000px;
+			margin:30px auto;
+			font-size: 14px;
+			overflow: hidden;
+		}
+		.reg .reg_left{
+			width: 540px;
+			height: 410px;
+			float: left;
+		}
+		.reg .reg_right{
+			width: 320px;
+			float: left;
+			margin-left: 50px;
+		}
+		.reg .reg_right .wel{
+			height: 20px;
+			margin-bottom: 25px;
+			overflow: hidden;
+			clear: both;
+			display: block;
+		}
+		.reg .reg_right .wel .wel_left{
+			float: left;
+		}
+		.reg .reg_right .wel .wel_right{
+			float: right;
+		}
+		.reg .reg_right .wel .wel_right a{
+			color: #00aaa6;
+		}
+		.reg .reg_right .reg_cont .item{
+			position: relative;
+			margin-bottom: 25px;
+		}
+		.reg .reg_right .reg_cont .item .tooltips{
+			position: absolute;
+			left: 0;
+			bottom: 42px;
+			transition:transform ease-out 0.15s,opacity ease-out 0.15s;
+			border:1px solid #91daf2;
+			font-size: 12px;
+			transform:translateY(-10px);
+			opacity: 0;
+			filter: alpha(opacity = 0);
+			visibility: hidden;
+		}
+		.reg .reg_right .reg_cont .item .input_success{
+			display: none;
+			position: absolute;
+			right: 7px;
+			top: 2px;
+			color: #47b85c;
+		}
+		.reg_cont .item .tooltips .tooltips-content{
+			padding: 6px 15px;
+			background: #e7f9ff;
+		}
+		.reg_cont .item .tooltips .tooltips-arrow{
+			position: absolute;
+			left: 10px;
+			bottom: -13px;
+			width: 100%;
+			height:10px;
+
+		}
+		.reg_cont .item .tooltips .tooltips-arrow i,.reg_cont .item .tooltips .tooltips-warn i{
+			position: absolute;
+			width: 14px;
+			height: 14px;
+			font:400 12px/14px Hiragino Sans GB;
+			text-align: left;
+			margin-left:-7px;
+			
+			top: -10px;
+		}
+		.reg_cont .item .tooltips-prompt .tooltips-arrow i{
+			color:  #e7f9ff;
+		}
+		.reg_cont .item .tooltips-warn .tooltips-arrow i{
+			color: #fffaf3;
+		}
+		.reg_cont .item .tooltips .tooltips-arrow .arrow-out,.reg_cont .item .tooltips .tooltips-warn .arrow-out{
+			
+			top: -9px;
+		}
+		.reg_cont .item .tooltips-prompt .tooltips-arrow .arrow-out{
+			color:  #91daf2 ;
+		}
+		.reg_cont .item .tooltips-warn .tooltips-arrow .arrow-out{
+			color: #f8dbb1;
+		}
+		.reg .reg_right .reg_cont .item .tooltips-warn{
+			border-color: #f8dbb1;
+		}
+		.reg_cont .item .tooltips-warn .tooltips-content{
+			background: #fffaf3;
+		}
+		.reg_cont .item .tooltips-warn .tooltips-content .iconfont{
+  		  	color: orange;
+    		font-size: 16px;
+		}
+		.tooltips .tooltips-content .icon-duihao{
+    		color: #f9a123;
+		}
+		.tooltips .tooltips-warn .arrow-out{
+   			color: #f8dbb1;
+		}
+		.tooltips.tooltips-warn .arrow{
+    		color: #fffaf3;
+		}
+		.reg .reg_right .reg_cont .text_input,.reg .reg_right .reg_cont .select_input{
+			width: 320px;
+			height: 32px;
+			box-sizing: border-box;
+			background: #fff;
+			border:1px solid #b2b2b2;
+			color: #333;
+			font-size: 12px;
+			line-height: 20px;
+			border-radius: 3px;
+			text-indent: 5px;
+		}
+		.reg .reg_right .reg_cont .btn .reg_btn{
+			width: 140px;
+			height: 40px;
+			background: #00aaa6;
+			border:1px solid #00aaa6;
+			border-radius: 3px;
+			color: #fff;
+			font-size: 16px;
+			line-height: 40px;
+			text-align: center;
+			display: inline-block;
+		}
+		.reg .reg_right .reg_cont .agreeInfo{
+			margin-top: 30px;
+		}
+		.reg .reg_right .reg_cont .agreeInfo #agree{
+			vertical-align: middle;
+			margin:0;
+		}
+		.height30{
+			height: 30px;
+		}
+		.footer{
+			text-align: center;
+			padding: 20px 0;
+			color: #999;
+			background: #414141;
+			overflow: hidden;
+		}
+		.footer .copyright{
+			width: 1200px;
+			margin:0 auto;
+			font-family:"微软雅黑";
+		}
+		.footer .copyright p{
+			font-size: 12px;
+			line-height: 25px;
+		}
+		.box{
+			color: red;
+		}

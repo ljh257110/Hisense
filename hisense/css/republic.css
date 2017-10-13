@@ -1,0 +1,334 @@
+*{margin:0;padding: 0;font-family: "微软雅黑";}
+		a{
+			text-decoration: none;		
+			transition:all 0.2s linear;
+		}
+		li{
+			list-style: none;
+		}
+		img{
+			overflow: hidden;
+		}
+		#header{
+			width: 100%;
+		}
+		#header #header_top{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		#header #header_top ul li{
+			float: left;
+		}
+		#header #header_top ul li a{
+			color: #646464;
+			font-size: 14px;
+			line-height: 29px;
+		}
+		#header_top #header_left{
+			float: left;
+		}
+		#header_top #header_right{
+			float: right;
+		}
+		#header_top #header_right li a{
+			transition:all 0.2s linear;
+		}
+		#header_top #header_right li a:hover{
+			color:#00aaa6;
+		}
+		#header_top #header_right .web_nav{
+			float: right;
+			box-sizing: border-box;
+			width: 84px;
+			margin-left:38px;
+			padding:0 5px;
+			position: relative;
+			text-align: left;
+		}
+		#header_top #header_right li .siteNav{
+			box-sizing: border-box;	
+			padding-right: 16px;
+			background:url(../images/web_nav_icon.png) no-repeat right center; 
+		}
+		#header_top #header_right .web_nav:hover{
+			padding-left:4px;
+			border-left:1px solid #d2d2d2;
+			border-right: 1px solid #d2d2d2; 
+		}
+		#header_top #header_right .web_nav:hover .siteNav{
+			color: #646464;
+		}
+		#header_top #header_right .web_nav:hover .content{
+			display: block;
+		} 
+		#header_top #header_right .web_nav .content{
+			position: absolute;
+			display: none;
+			width: 901px;
+			top: 29px;
+			right: -1px;
+			padding: 26px 0;
+			box-sizing: border-box;
+			z-index: 50;
+			background: #fff;
+			border:1px solid #d2d2d2;
+			border-top: 0;
+		}
+		#header_top #header_right .web_nav .content li{
+			padding-left: 30px;
+			width: 299px;
+			box-sizing: border-box;
+			border-right:1px solid #d2d2d2; 
+		}
+		#header_top #header_right .web_nav .content .item3{
+			border-right:0;
+		}
+		#header_top #header_right .web_nav .content li h3{
+			color: #464646;
+   			font-size: 14px;
+    		margin: 0;
+
+		}
+		#header_top #header_right .web_nav .content li a{
+			width: 86px;
+			color: #787878;
+			font-size: 12px;
+			display: inline-block;
+		}
+		#header_top #header_right li .helpCenter{
+			padding-left:39px;
+		}
+		#header_top #header_right li .shoppingCart{
+			padding:0 17px 0 36px;
+			background:url(../images/car.png) no-repeat right center;
+		}
+		#header_top #header_right li .order{
+			padding-left:25px;
+			background:url(../images/boundary.jpg) no-repeat left center;
+		}
+		#header_top #header_right li .register{
+			padding-right:22px;
+			font-weight: 700;
+		}
+		#header_top #header_right li .Login{
+			padding-right:18px;
+			font-weight: 700;
+		}
+		#header_top #header_left li .officialWeb{
+			padding-right:26px;
+			background:url(../images/boundary.jpg) no-repeat right center;
+		}
+		#header_top #header_left li .city{
+			padding:0 21px 0 23px;
+			background:url(../images/boundary.jpg) no-repeat right center;
+		}
+		#header_top #header_left li .sponsor{
+			padding-left:18px;
+			margin-left: 15px;
+			background:url(../images/airing_icon.png) no-repeat left center;
+		}
+		#hookFace{
+			width: 100%;
+			height: 74px;
+			overflow: hidden;
+		}
+		#logo-wrap{
+			border-top:1px solid #ededed;
+			width: 100%;
+			height: 112px;
+		}
+		#logo-wrap #content{
+			width: 1200px;
+			height: 112px;
+			margin: 0 auto;
+		}
+		#logo-wrap #content a{
+			float: left;
+			margin-top: 0;
+			display: block;
+		}
+		#logo-wrap #content a img{
+			width: 250px;
+			height: 70px;
+			margin-top: 21px;
+		}
+		#logo-wrap #content .search{
+			float: left;
+			width: 679px;
+			height: 40px;
+			margin: 36px 0 0 56px;
+		}
+		#logo-wrap #content .search #searchKeyInput{
+			float: left;
+			width: 550px;
+			height: 38px;
+			color: #8f8f8f;
+			text-indent: 15px;
+			padding-right: 38px;
+			border:1px solid #dcdcdc;
+		}
+		#logo-wrap #content .search #searchBtn{
+			width: 89px;
+			height: 40px;
+			float: left;
+			cursor: pointer;
+			background: #00aaa6 url(../images/search_icon.png) no-repeat center center;
+			border:0;
+		}
+		#logo-wrap #content #erm{
+			float: right;
+			margin: 11px 2px 0 122px;
+		}
+		#nav{
+			background: #3c3c3c;
+			height: 42px;
+		}
+		#nav #menu{
+			width:1200px;			
+			margin: 0 auto;
+			position: relative;
+		}
+		#nav #menu li{
+			float: left;
+			padding: 0 22px;
+			line-height: 42px;
+			font-size: 15px;
+		}
+		#nav #menu .allClassify{
+			width: 256px;
+			padding-left: 36px;
+			font-size: 18px;
+			background:url(../images/menu_icon.png) no-repeat left center;
+			
+		}
+		#nav #menu .allClassify a:hover{
+			color:#fff;
+			cursor:auto; 
+		}
+		#nav #menu li a{
+			color:#fff;
+		}
+		#nav #menu li a:hover{
+			color:#00aaa6;
+		}
+		#nav #menu .classify{
+			position: absolute;
+			left: 0;
+			top:42px;
+			z-index: 1;
+			background: #fff;
+			z-index: 10;
+		}
+
+		#nav #menu .classify ul li{
+			padding: 0;
+			float: none;
+			width: 256px;
+			height: 43px;
+			line-height: 43px;
+			color: #3c3c3c;
+			font-size: 16px;
+		}
+		#nav #menu .classify ul li .exh{
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 256px;
+			width: 556px;
+			height: 430px;
+			background: #f5f5f5;
+		}
+		#nav #menu .classify .exh ul li:hover{
+			background: rgb(204,204,204);
+		}
+		#nav #menu .classify ul li .exh .left{
+			float: left;
+			height: 100%;
+			border-right: 1px solid #e5e5e5;
+		}
+		#nav #menu .classify .exh .left li{
+			font-size: 14px;
+			color: #313131;
+			height: 53px;
+			width: 270px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			position: relative;
+		}
+		#nav #menu .classify .exh .left li img{
+			margin: 0 8px 0 26px;
+			vertical-align:middle;
+		}
+		#nav #menu .classify .exh .right{
+			float: left;
+
+			width: 278px;
+			background: #f5f5f5;
+		}
+		#nav #menu .classify .exh .right li{
+			position: relative;
+			cursor: default;
+			width: 278px;
+			height: 143.33px;
+			border-bottom: 1px solid #e5e5e5;
+			line-height: 43.2px;
+			box-sizing: border-box;
+			overflow: hidden;
+		}
+		#nav #menu .classify .exh .right li div{
+			width: 100%;
+			height: 35px;
+			text-align: center;
+			
+		}
+		#nav #menu .classify .exh .right li div .name{
+			position: absolute;
+			width: 194px;
+			left: 52px;	
+			font-size: 14px;
+			bottom: 20px;
+			margin:0;
+			line-height: 22px;
+			color: #3c3c3c;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		#nav #menu .classify .exh .right li div .price{
+			position: absolute;
+			width: 194px;
+			left: 52px;
+			margin:0;
+			font-size: 16px;
+			bottom: 4px;
+			line-height: 16px;
+			color: #d72121;
+		}
+		#nav #menu .classify .exh .right li div .price span{
+			font-size: 14px;
+			margin-right: 2px;
+		}
+		#nav #menu .classify .exh .right li img{
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 2px;
+			left: 50%;
+			margin-left: -50px;
+
+		}
+		#nav #menu .classify a{
+			color: #333;
+			transition: all 0.2s linear;
+		}
+		#nav #menu .classify a:hover{
+			color: #333;
+		}
+		#nav #menu .classify .exh a:hover{
+			color:#00aaa6;
+		}
+		#nav #menu .classify ul li div p{
+			margin-left: 64px;
+		}
